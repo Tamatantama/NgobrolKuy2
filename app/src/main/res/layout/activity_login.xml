@@ -75,13 +75,15 @@
             app:cardCornerRadius="40dp"
             android:backgroundTint="@color/white">
 
-            <TextView
+            <EditText
+                android:id="@+id/Username"
                 android:layout_margin="10dp"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Masukkan username Anda"
+                android:hint="Masukkan username Anda"
                 android:textSize="8pt"
-                android:textColor="@color/light_gray"/>
+                android:textColor="@color/light_gray"
+                android:background="@null"/>
 
         </androidx.cardview.widget.CardView>
 
@@ -102,17 +104,20 @@
             app:cardCornerRadius="40dp"
             android:backgroundTint="@color/white">
 
-            <TextView
+            <EditText
+                android:id="@+id/Password"
                 android:layout_margin="10dp"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Masukkan password Anda"
+                android:hint="Masukkan password Anda"
                 android:textSize="8pt"
-                android:textColor="@color/light_gray"/>
+                android:textColor="@color/light_gray"
+                android:background="@null"/>
 
         </androidx.cardview.widget.CardView>
 
         <TextView
+            android:id="@+id/buttonForget"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="right"
@@ -134,6 +139,7 @@
         android:layout_marginTop="32dp">
 
         <TextView
+            android:id="@+id/buttonLogin"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="LOGIN"
@@ -144,11 +150,13 @@
             android:layout_marginStart="18dp"
             android:layout_marginEnd="18dp"
             android:layout_marginTop="8dp"
-            android:layout_marginBottom="8dp"/>
+            android:layout_marginBottom="8dp"
+            android:clickable="true"/>
 
     </androidx.cardview.widget.CardView>
 
     <TextView
+        android:id="@+id/buttonRegis"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Belum punya akun?"
@@ -160,6 +168,7 @@
         android:background="@drawable/rounded_outline"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"/>
+        app:layout_constraintEnd_toEndOf="parent"
+        android:clickable="true"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

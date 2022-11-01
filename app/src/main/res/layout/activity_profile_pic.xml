@@ -17,6 +17,7 @@
         app:layout_constraintTop_toTopOf="parent"
         android:layout_marginTop="48dp"/>
 
+
     <ImageView
         android:id="@+id/pinkCircle"
         android:layout_width="120px"
@@ -26,13 +27,15 @@
         app:layout_constraintBottom_toBottomOf="@id/profilePic"/>
 
     <ImageView
+        android:id="@+id/buttonImage"
         android:layout_width="100px"
         android:layout_height="100px"
         android:src="@drawable/ic_baseline_edit_24"
         app:layout_constraintStart_toStartOf="@id/pinkCircle"
         app:layout_constraintEnd_toEndOf="@id/pinkCircle"
         app:layout_constraintTop_toTopOf="@id/pinkCircle"
-        app:layout_constraintBottom_toBottomOf="@id/pinkCircle"/>
+        app:layout_constraintBottom_toBottomOf="@id/pinkCircle"
+        android:clickable="true"/>
 
     <ImageView
         android:layout_width="320px"
@@ -61,6 +64,7 @@
 
 
     <TextView
+        android:id="@+id/buttonNext"
         android:visibility="visible"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -72,7 +76,8 @@
         android:layout_margin="32dp"
         android:background="@drawable/rounded_outline"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"/>
+        app:layout_constraintEnd_toEndOf="parent"
+        android:clickable="true"/>
 
     <androidx.cardview.widget.CardView
         android:visibility="invisible"
@@ -87,7 +92,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Lanjut"
+            android:text="Lewati"
             android:fontFamily="@font/redhatdisplay_regular"
             android:textStyle="bold"
             android:textSize="12pt"
@@ -95,7 +100,8 @@
             android:layout_marginStart="18dp"
             android:layout_marginEnd="18dp"
             android:layout_marginTop="8dp"
-            android:layout_marginBottom="8dp"/>
+            android:layout_marginBottom="8dp"
+            />
 
     </androidx.cardview.widget.CardView>
 

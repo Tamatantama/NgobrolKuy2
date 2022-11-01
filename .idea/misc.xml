@@ -3,6 +3,16 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Android/Project/NgobrolKuy/app/src/main/res/layout/activity_chat_personal.xml" value="0.25" />
+        <entry key="..\:/Android/Project/NgobrolKuy/app/src/main/res/layout/activity_check_email.xml" value="0.25" />
+        <entry key="..\:/Android/Project/NgobrolKuy/app/src/main/res/layout/activity_forgot_password.xml" value="0.2128623188405797" />
+        <entry key="..\:/Android/Project/NgobrolKuy/app/src/main/res/layout/activity_home_chat.xml" value="0.1" />
+        <entry key="..\:/Android/Project/NgobrolKuy/app/src/main/res/layout/activity_login.xml" value="0.1" />
+        <entry key="..\:/Android/Project/NgobrolKuy/app/src/main/res/layout/activity_main_chat.xml" value="0.25" />
+        <entry key="..\:/Android/Project/NgobrolKuy/app/src/main/res/layout/activity_profile_pic.xml" value="0.1" />
+        <entry key="..\:/Android/Project/NgobrolKuy/app/src/main/res/layout/activity_register.xml" value="0.23671497584541062" />
+        <entry key="..\:/Android/Project/NgobrolKuy/app/src/main/res/layout/activity_setting.xml" value="0.1" />
+        <entry key="..\:/Android/Project/NgobrolKuy/app/src/main/res/layout/activity_splash.xml" value="0.25" />
         <entry key="..\:/Users/Komp/AndroidStudioProjects/NgobrolKuy/app/src/main/res/drawable/circle.xml" value="0.2995" />
         <entry key="..\:/Users/Komp/AndroidStudioProjects/NgobrolKuy/app/src/main/res/drawable/gradient_drawable.xml" value="0.268" />
         <entry key="..\:/Users/Komp/AndroidStudioProjects/NgobrolKuy/app/src/main/res/drawable/ic_baseline_edit_64.xml" value="0.2995" />
@@ -19,5 +29,12 @@
   </component>
   <component name="ProjectType">
     <option name="id" value="Android" />
+  </component>
+  <component name="VisualizationToolProject">
+    <option name="state">
+      <ProjectState>
+        <option name="scale" value="0.2128623188405797" />
+      </ProjectState>
+    </option>
   </component>
 </project>
